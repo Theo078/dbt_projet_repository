@@ -1,0 +1,12 @@
+
+version: 2
+
+sources:
+  - name : dataset_additionnal
+    tables:
+    - name : 10k_popular_games
+    - name : behavior_players
+    - name : best_sales_consoles
+    - name : content_binary
+    - name : video_games_sales
+    - name : video_games_units_sold
