@@ -10,3 +10,33 @@ sources:
     - name : content_binary
     - name : video_games_sales
     - name : video_games_units_sold
+
+  - name : playstation
+    tables:
+    - name : playstation_achievments_cleaneddd
+    - name : playstation_games
+    - name : playstation_history
+    - name : playstation_players
+    - name : playstation_price_cleaned
+    - name : playstation_purchased_games
+
+
+  - name : steam
+    tables:
+    - name : steam_achievements
+    - name : steam_games
+    - name : steam_history
+    - name : steam_players
+    - name : steam_prices
+    - name : steam_purchased_games
+    - name : steam_reviews
+
+
+  - name : xbox
+    tables:
+    - name : xbox_achievements
+    - name : xbox_games
+    - name : xbox_history
+    - name : xbox_players
+    - name : xbox_prices
+    - name : xbox_purchased_games
