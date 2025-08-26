@@ -1,6 +1,16 @@
 
 version: 2
 
+sources:
+  - name : dataset_additionnal
+    tables:
+    - name : 10k_popular_games
+    - name : behavior_players
+    - name : best_sales_consoles
+    - name : content_binary
+    - name : video_games_sales
+    - name : video_games_units_sold
+
 models:
     - name: my_first_dbt_model
       description: "A starter dbt model"
@@ -11,11 +21,3 @@ models:
                 - unique
                 - not_null
 
-    - name: my_second_dbt_model
-      description: "A starter dbt model"
-      columns:
-          - name: id
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
