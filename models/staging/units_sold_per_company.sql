@@ -22,7 +22,7 @@ renamed as (
 
 select
 company
-,round(sum(units_sold_million),2) as units_sold_over_time
+,round(sum(units_sold_million),0) as units_sold_per_company
 from renamed
 group by company
-order by units_sold_over_time DESC
+order by units_sold_per_company DESC
