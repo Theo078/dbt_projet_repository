@@ -10,6 +10,10 @@ sources:
     - name : content_binary
     - name : video_games_sales
     - name : video_games_units_sold
+    - name : list_nintendo_games
+    - name : list_playstation_games
+    - name : list_steam_games
+    - name : list_xbox_games
 
   - name : playstation
     tables:
